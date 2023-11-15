@@ -9,6 +9,8 @@
   --color-darkblue: #19A7CE;
   --color-pink: #FF2E63;
   --color-red: #ED2B2A;
+  --color-discord: #0336AA;
+  --color-white: #FFFFFF;
   --font-sans: 'Calibre','Inter','San Francisco','SF Pro Text',-apple-system,system-ui,sans-serif;
 }
 
@@ -299,6 +301,12 @@ hr{
 }
 
 /*----------------------------PROJECTS-----------------------------------------*/
+.project-description{
+  font-size: 30px;
+  text-align: center;
+  color: var(--color-white);
+}
+
 .project-container{
   position: relative;
   cursor: pointer;
@@ -338,6 +346,18 @@ hr{
 
 .rps{
   background-color: var(--color-blue);
+}
+
+.disc{
+  background-color: var(--color-discord);
+}
+
+.java{
+  background-color: var(--color-white);
+}
+
+.c{
+  background-color: blueviolet;
 }
 
 .project-image img {
